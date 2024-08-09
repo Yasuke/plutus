@@ -4,6 +4,7 @@
 {-# OPTIONS_GHC -Wno-unused-imports #-}
 {-# OPTIONS_GHC -fno-omit-interface-pragmas #-}
 {-# OPTIONS_GHC -fmax-simplifier-iterations=0 #-}
+{-# OPTIONS_GHC -fexpose-all-unfoldings #-}
 
 module PlutusTx.Prelude (
     -- $prelude
