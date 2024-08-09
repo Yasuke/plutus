@@ -12,6 +12,7 @@
 
 {-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
 {-# HLINT ignore "Use newtype instead of data" #-} -- See Note [Opaque builtin types]
+{-# OPTIONS_GHC #-fexpose-all-unfoldings #-}
 
 -- | This module contains the special Haskell names that are used to map to builtin types or functions
 -- in Plutus Core.
