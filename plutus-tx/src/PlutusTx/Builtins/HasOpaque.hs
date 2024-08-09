@@ -11,6 +11,7 @@
 {-# OPTIONS_GHC -fno-specialise #-}
 {-# OPTIONS_GHC -fno-omit-interface-pragmas #-}
 {-# OPTIONS_GHC -Wno-orphans #-}
+{-# OPTIONS_GHC -fexpose-all-unfoldings #-}
 
 module PlutusTx.Builtins.HasOpaque where
 
