@@ -1,4 +1,5 @@
 -- editorconfig-checker-disable-file
+{-# OPTIONS_GHC -fexpose-all-unfoldings #-}
 
 -- | Primitive names and functions for working with Plutus Core builtins.
 module PlutusTx.Builtins (
